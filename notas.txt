@@ -1,0 +1,35 @@
+
+
+
+Criar api com Node:
+
+1- instalar o node caso não tenha instalado;
+2- Instalar o NPM caso não tenha, ele é o nosso gerenciador de bibliotecas, como se fosse uma store onde podemos pegar
+ferramentas necessárias para nosso projeto;
+3- npm init -y, para iniciar o npm
+4- Instalar o express, esse é o que possibilita a criação de rotas da nossa api. npm install express
+5- Importar o express para o projeto no arquivo server.js. import express from "express";
+6- Instanciar o express no projeto, const.app = express();
+Agora podemos criar nossos rotas:
+7-Criar as rotas GET, POST, DELETE...
+8- No arquivo server.js, informe ao express o que vamos utilizar json com o comando, app.use(express.json());
+
+
+
+{
+  
+  "titulo":"treino de Skate",
+  "data":"10/05/2025",
+  "hora":"20:00",
+  "local":"Pista Costeira",
+  "descricao":"Treino de Skate, aprender manobra doble"
+}
+
+
+dbTask
+
+Nome cluster: dbtasks
+
+
+Username:fratelloyuri
+Pass: 5454
